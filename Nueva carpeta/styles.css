@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.header_logo {
+}
+
+.header_logo__img {
+    width: 120px;
+    height: 60px;
+}
+
+.header_menu__ul{
+}

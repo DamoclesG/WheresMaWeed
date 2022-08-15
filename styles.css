@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Hunter;
+    src: url('Hunters.otf');
+} 
+
+body {
+    background: #080607;
+    background-image: url(Background2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.header_logo {
+}
+
+.header_logo__img {
+    width: 160px;
+    height: 60px;
+}
+
+.header_menu {
+    align-self: flex-end;
+}
+
+.header_menu__ul{
+    display: flex;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.header_menu__ul__li {
+    margin-left: 20px;
+    color: white;
+    font-family: 'Hahmlet', serif;
+}
+
+.header_user__i {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.advertisement {
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+.advertisement__h1 {
+    font-family: Hunter;
+    font-size: 100px;
+    line-height: 0.7;
+    color: white;
+}
+
+.advertisement__p {
+    padding-right: 850px;
+    font-family: 'Hahmlet', serif;
+    color: white;
+}
+
+.advertisement__button {
+    color: white;
+    margin-left: 70px;
+    background-color: green;
+    font-family: Hunter;
+    border: 2px solid greenyellow;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+.intro {
+    padding-top: 50px;
+}
+
+.intro__h2 {
+    text-align: center;
+    color: white;
+}
+
+.intro__p {
+    text-align: center;
+    padding: 0 400px;
+    color: white;
+}
+
+.catalog {
+    background-color: none;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.catalog_testWeed {
+    padding: 0 5px;
+    margin-right: 12.5px;
+    margin-left: 30.5px;
+    margin-bottom: 32px;
+    max-width: 200px;
+    border: 2px solid green;
+    border-radius: 15px;
+    background-color: #282826;
+
+}
+
+.catalog_testWeed__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.catalog_testWeed__h3 {
+    font-family: "Hunter";
+    font-size: 50px;
+    color: white;
+}
+
+.catalog_testWeed__p {
+    color: white;
+    font-size: 12px;
+    font-family: 'Hahmlet', serif;
+}
+
+.catalog_testWeed__h4 {
+    color: white;
+    font-family: 'Hahmlet', serif;
+
+}
