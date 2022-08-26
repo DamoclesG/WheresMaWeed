@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Hunter;
+    src: url('Hunters.otf');
+} 
+
+body {
+    background: #080607;
+    background-image: url(Background8.jpg);
+    background-size: cover;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BF1793;
+    transition: 1s;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.header_logo__img {
+    width: 213px;
+    height: 80px;
+}
+
+.header_menu, .header_menu {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_menu__ul, .header_menu__ul2{
+    display: flex;
+    list-style: none;
+}
+
+.header_menu__ul__li, .header_menu__ul2__li {
+    margin-left: 40px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+.header_menu__ul2__li {
+    margin-left: 20px;
+    margin-top: 0px;
+    color: white;
+    padding: 7px 35px;
+    border: 2px solid #1DF2B6;
+    border-radius: 30px;
+}
+
+.header_menu__ul2__li:hover {
+    color: #1DF2B6;
+    transition: 1s;
+}
