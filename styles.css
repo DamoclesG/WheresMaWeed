@@ -118,6 +118,10 @@ a:hover, i:hover {
 .advertisement2__container__textside {
     color: #fff;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
     border: 1px solid rgba (255, 255, 255, 0.3);
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -126,33 +130,29 @@ a:hover, i:hover {
 
 .advertisement2__container__textside__h2, .advertisement2__container__textside__p {
     color: white;
-    padding-left: 50px;
 }
 
 .advertisement2__container__textside__h2 {
     line-height: 0.9;
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
-    padding-right: 100px;
-    padding-top: 65px;
+    font-size: 4rem;
+    margin-bottom: 50px;
 }
 
 .advertisement2__container__textside__p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    padding-top: 10px;
-    padding-right: 100px;
 }
 
 .advertisement2__container__textside__button {
     font-size: 18px;
-    margin-top: 20px;
-    margin-left: 50px;
     color: black;
     background-color: #1DF2B6;
     font-family: 'Open Sans', sans-serif;
     padding: 7px 35px;
     border: 2px solid #1DF2B6;
+    align-self: flex-start;
+    margin-top: 2rem;
     border-radius: 30px;
 }
 
@@ -183,9 +183,8 @@ a:hover, i:hover {
     color: #fff;
     border-radius: 15px;
     border: 1px solid rgba (255, 255, 255, 0.3);
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.6);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
 }
 
 .deepAdd__container__i {
@@ -221,7 +220,7 @@ a:hover, i:hover {
 
 .dummieAdd__glass {
     display: flex;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.6);
     border-radius: 15px;
     border: 1px solid rgba (255, 255, 255, 0.3);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -304,19 +303,23 @@ a:hover, i:hover {
     border: 1px solid rgba (255, 255, 255, 0.3);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     max-width: 200px;
-    padding: 0 5px;
+    padding: 20px;
     margin-right: 12.5px;
     margin-left: 30.5px;
     margin-bottom: 32px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .catalog_testWeed__img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 150px;
     height: 150px;
+    margin: 10px;
+    margin-bottom: 2rem;
 }
 
 .catalog_testWeed__h3 {
