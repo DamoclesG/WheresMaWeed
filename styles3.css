@@ -1,0 +1,215 @@
+@font-face {
+    font-family: Hunter;
+    src: url(fonts/Hunters.otf);
+}
+
+body {
+    background: #181818;
+  /*background-image: url(background/BackgroundFinalPNG5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;*/
+}
+
+body::-webkit-scrollbar {
+    display: block;
+}
+
+.header_menu__ul__a {
+    color: white;
+    text-decoration: none;
+}
+
+.header_menu__ul__a__active {
+    color: #BF1793;
+    text-decoration: none;
+}
+
+.header_menu__ul__a__active:hover {
+    color: white;
+    transition: 1s;
+}
+
+.header_menu__ul__a:hover {
+    color: #BF1793;
+    transition: 1s;
+}
+    
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.header_logo__img {
+    width: 213px;
+    height: 80px;
+}
+
+.header_menu {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_menu__ul, .header_menu__ul2, .header_menu__ul__a, .header_menu__ul__a__active {
+    display: flex;
+    list-style: none;
+}
+
+.header_menu__ul__a, .header_menu__ul2__li {
+    margin-left: 40px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+.header_menu__ul__a__active {
+    margin-left: 40px;
+    color: #BF1793;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+.header_menu__ul2__li {
+    margin-left: 20px;
+    margin-top: 0px;
+    color: white;
+    padding: 7px 35px;
+    border: 2px solid #1DF2B6;
+    border-radius: 30px;
+}
+
+.header_menu__ul2__li:hover {
+    color: #1DF2B6;
+    transition: 1s;
+}
+
+.animation {
+    position: relative;
+}
+
+.animation__stain {
+    position: absolute;
+    width: 50%;
+    top: -100px;
+    right: 400px;
+    opacity: 0.35;
+}
+
+.animation__kawaBong {
+    opacity: 1;
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: kbCums;
+    animation-duration: 2s;
+}
+
+@keyframes kbCums {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.animation__neonBall {
+    position: absolute;
+    width: 30%;
+    bottom: -80px;
+    left: 200px;
+    rotate: -140deg;
+    animation-name: neonBallMovement;
+    animation-duration: 1s;
+}
+
+@keyframes neonBallMovement {
+    from {bottom: -300px;
+        opacity: 0;}
+    to {bottom: -80px;
+        opacity: 1;}
+}
+
+.animation__neonBall2 {
+    position: absolute;
+    width: 10%;
+    bottom: 0;
+    opacity: 1;
+    right: 450px;
+    rotate: 110deg;
+    animation-name: neonBallMovement2;
+    animation-duration: 1s;
+}
+
+@keyframes neonBallMovement2 {
+    from {bottom: -300px;
+        opacity: 0;}
+    to {bottom: 0px;
+        opacity: 1;}
+}
+
+.animation__neonBall3 {
+    position: absolute;
+    width: 30%;
+    bottom: 70px;
+    right: 200px;
+    rotate: 40deg;
+    animation-name: neonBallMovement3;
+    animation-duration: 1s;
+}
+
+@keyframes neonBallMovement3 {
+    from {bottom: -300px;
+        opacity: 0;}
+    to {bottom: 70px;
+        opacity: 1;}
+}
+
+.animation__neonBall4 {
+    position: absolute;
+    width: 10%;
+    bottom: 300px;
+    left: 450px;
+    rotate: -90deg;
+    animation-name: neonBallMovement4;
+    animation-duration: 1s;
+}
+
+@keyframes neonBallMovement4 {
+    from {bottom: -300px;
+        opacity: 0;}
+    to {bottom: 300px;
+        opacity: 1;}
+}
+
+.paragraph {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 590px;
+    animation-name: paragraphMovement;
+    animation-duration: 1s;
+}
+
+@keyframes paragraphMovement {
+    from {top: 770px;}
+    to {top: 590px;}
+}
+
+.paragraph__h1, .paragraph__p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.paragraph__h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraph__p {
+    font-family: 'Open Sans', sans-serif;
+}

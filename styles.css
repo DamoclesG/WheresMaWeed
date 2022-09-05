@@ -5,10 +5,135 @@
 
 body {
     background: #181818;
-    background-image: url(background/BackgroundFinalPNG5.png);
+  /*background-image: url(background/BackgroundFinalPNG5.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: right top;*/
+}
+
+body::-webkit-scrollbar {
+    display: block;
+}
+
+.animation {
+    position: relative;
+}
+
+.animation__stain {
+    position: absolute;
+    width: 50%;
+    top: -100px;
+    right: 400px;
+    opacity: 0.35;
+}
+
+.animation__littleMaryFirst {
+    opacity: 1;
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: lmCums;
+    animation-duration: 2s;
+}
+
+@keyframes lmCums {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.animation__neonBall {
+    position: absolute;
+    width: 30%;
+    bottom: -80px;
+    left: 200px;
+    rotate: -140deg;
+    animation-name: neonBallMovement;
+    animation-duration: 1s;
+}
+
+@keyframes neonBallMovement {
+    from {left: -330px;}
+    to {left: 200px;}
+}
+
+.animation__neonTriangle {
+    position: absolute;
+    width: 30%;
+    top: -100px;
+    right: 200px;
+    rotate: 40deg;
+    animation-name: neonTriangleMovement;
+    animation-duration: 1s;
+}
+
+@keyframes neonTriangleMovement {
+    from {right: -340px;}
+    to {right: 200px;}
+}
+
+.animation__neonBall2 {
+    position: absolute;
+    width: 10%;
+    bottom: 0;
+    opacity: 1;
+    right: 450px;
+    rotate: 110deg;
+    animation-name: neonBallMovement2;
+    animation-duration: 1s;
+}
+
+@keyframes neonBallMovement2 {
+    from {bottom: -300px;
+        opacity: 0;}
+    to {bottom: 0px;
+        opacity: 1;}
+}
+
+.animation__neonTriangle2 {
+    position: absolute;
+    width: 10%;
+    top: -30px;
+    left: 450px;
+    rotate: -90deg;
+    animation-name: neonTriangleMovement2;
+    animation-duration: 1s;
+}
+
+@keyframes neonTriangleMovement2 {
+    from {top: -220px;}
+    to {top: -30px;}
+}
+
+.paragraph {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 590px;
+    animation-name: paragraphMovement;
+    animation-duration: 1s;
+}
+
+@keyframes paragraphMovement {
+    from {top: 770px;}
+    to {top: 590px;}
+}
+
+.paragraph__h1, .paragraph__p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.paragraph__h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraph__p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
